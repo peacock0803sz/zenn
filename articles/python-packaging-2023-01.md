@@ -168,7 +168,7 @@ namespaces = false
  ...
 ```
 
-こうすることで`from my.awesome.package from ...`とするAbsolute Importができるようになります。
+こうすることで`from my.awesome.package import ...`とするAbsolute Importができるようになります。
 
 ## あなたがやりたいと思っていること、ほぼ出来ますよ
 
