@@ -35,7 +35,12 @@ published: true
 ### 用語
 
 - [PEP](https://peps.python.org): Python Enhancement Proposalsの略。新機能や改善案などが提出され集められたもの
-- [Setuptools](https://setuptools.pypa.io/en/latest/index.html): pipが裏で使っているパッケージングライブラリ
+- [Setuptools](https://setuptools.pypa.io/en/latest/index.html): pip(インストーラー)がバックエンドとして使えるパッケージャライブラリの1つ
+
+:::details 誤記を修正
+https://twitter.com/aodag/status/1610607294643073024
+:::
+
 - Absolute Import: 絶対インポートとも言われ、パッケージ名からの絶対パスでインポートする書き方
 
 ## 基本の構成の `pyproject.toml`
