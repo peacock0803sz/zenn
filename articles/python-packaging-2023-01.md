@@ -188,8 +188,12 @@ dev = ["black", "flake8", "mypy"]
 ### タスクランナー(npm scripts)的なもの
 
 `pyproject.toml`に次のように記述することで、タスクランナーのようなこともできます。[^4]
-ここで末尾に`[dev]`のように記述することで必要なextras(上述の`project.optional-dependences`)を明記できます。
-もちろんサードパーティーパッケージのものを指定しても問題ないです。
+~~ここで末尾に`[dev]`のように記述することで必要なextras(上述の`project.optional-dependences`)を明記できます。~~
+~~もちろん~~サードパーティーパッケージのものを指定しても問題ないです。
+
+:::details 2023/01/05 打ち消し線を追加
+https://twitter.com/aodag/status/1610589178798174208
+:::
 
 ```toml:pyproject.toml
 [project.scripts]
