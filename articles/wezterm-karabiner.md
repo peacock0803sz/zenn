@@ -6,13 +6,17 @@ topics:
   - "wezterm"
   - "karabiner"
   - "vim"
-published: false
+  - "skk"
+published: true
 published_at: "2024-02-26 00:00"
+publication_name: "vim_jp"
 ---
 
 # [WezTerm] macSKKとskkeletonを使用して同じキーバインドで入力切り替えをしたい!
 
 ## デモ
+
+[![Image from Gyazo](https://i.gyazo.com/8e6d2610a75643f1490a842e3b4261b3.gif)](https://gyazo.com/8e6d2610a75643f1490a842e3b4261b3)
 
 ## 前提・モチベーション
 
@@ -30,7 +34,7 @@ published_at: "2024-02-26 00:00"
     - <https://wezfurlong.org/wezterm/config/lua/config/use_ime.html>
 - Karabiner-Elementsを使って端末内の入力切り替えを行う。以下のルールを追加する
     - <https://karabiner-elements.pqrs.org/docs/manual/configuration/configure-complex-modifications/>
-
+- Skkeleton(Vim)の設定でトグルキーを設定(今回は `<C-\>`)
 
 ### 追加するルール
 
