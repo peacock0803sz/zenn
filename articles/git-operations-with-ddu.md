@@ -24,7 +24,7 @@ publication_name: "vim_jp"
 - ddu.vimの基本的な紹介(ui/source/filter/kindの概念含む)
     - [新世代の UI 作成プラグイン ddu.vim (@shougo)](https://zenn.dev/shougo/articles/ddu-vim-beta)
 - ddu.vimを使用するための設定方法
-    - [ddu.vimの基本設定概観](https://zenn.dev/vim_jp/articles/c0d75d1f3c7f33)
+    - [ddu.vimの基本設定概観 (@kyoh86)](https://zenn.dev/vim_jp/articles/c0d75d1f3c7f33)
     - [一歩ずつ始めるddu.vim (@wagomu)](https://zenn.dev/vim_jp/articles/20231020step-by-step-ddu)
 
 また、本記事内の設定についてはLua + TypeScriptで記述しています。
